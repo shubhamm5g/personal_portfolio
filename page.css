@@ -65,41 +65,30 @@ li.nav:hover{
     background-color: rgb(5, 24, 37);
 }
 /* for home page*/
-.section_page{
-    left: 0px;
-    height: 821px;
-    border: 1px solid transparent;
-}
 
-
-section.home{
-    background-color: rgb(167, 167, 19);
-}
 section{
+    height: 821px;
     padding:120px 16% 90px;
 }
+
 .home{
-    position: relative;
-    top: 45px;
-    height: 775px;
-    width: 100%;
     font-weight: bolder;
-    border: 1px solid transparent;
-    
+    background-color: rgb(167, 167, 19);
 }
+
 .home-text{
-    padding-top: 100px;
-    border: 1px solid transparent;
-    padding-bottom: 20px;
+margin-top:100px;
+
 }
 h4.hello{
-color: var(--main-color);
-    padding-bottom: 20px;
+    color: var(--main-color);
 }
+
 h1.name{
     font-size: 70px;
     color: white;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+
     
 }
 .name_color{
@@ -107,10 +96,9 @@ h1.name{
 }
 h3.hello-front{
     color: var(--second-color);
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 a.btn{
-
     padding: 10px 30px;
     color: white;
     background-color: var(--main-color);
@@ -124,27 +112,27 @@ a.btn:hover{
 }
 
 /*about us*/
-section.about{
+.about{
     background-color: green;
 }
 
 .about-us{
-    border: 1px solid transparent;
+    margin-top: 20px;
+    width: 400px;
+
 }
 .name.about-me{
     font-size: 60px;
     color: white;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 p.myself{
-    width: 400px;
     color: lightgrey;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 ol.talent{
     margin-bottom: 40px;
     display: block;
-    list-style-type: decimal;
 }
 li.feature{
     margin-bottom: 20px;
@@ -152,26 +140,19 @@ li.feature{
     color: rgb(244, 233, 204);
     display: block;
 }
-
-
 /*services*/
-section.service{
-    background-color: gray;
-}
 .service{
+    background-color: gray;
     text-align: center;
-    position: relative;
-    top:20px;
 }
+
 .main-design-block{
     margin-top:60px ;
     display: flex;
-    width: auto;
 }
-.design{
 
+.design{
     border-radius: 15px;
-    width: 300px;
     border: 3px solid var(--main-color);
     background: rgb(41, 8, 49);
     margin-right: 30px;
@@ -182,19 +163,15 @@ section.service{
     font-size: 20px;
 }
 .s.myself{
-    padding-top: 20px;
-    width: auto;
+    margin-top: 20px;
 }
 .design:hover{
     border:3px solid white;
-
 }
 
 
 /*shoe design*/
-section.portfolioi{
-    margin-top: -25px;
-
+.portfolioi{
     background-color: rgb(255, 255, 255);
 }
 .card{
